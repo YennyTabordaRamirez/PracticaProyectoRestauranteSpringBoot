@@ -1,0 +1,5 @@
+package com.restaurant.semillero.entity;
+
+public class RoleEntity {
+
+}

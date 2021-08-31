@@ -1,0 +1,17 @@
+package com.restaurant.semillero.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.restaurant.semillero.repository.IUserJpaRepository;
+
+@RestController
+@RequestMapping("/users")
+public class UserController {
+	
+	private IUserJpaRepository uJpaRepository;
+
+	public UserController(IUserJpaRepository uJpaRepository) {
+		this.uJpaRepository = uJpaRepository;
+
+}

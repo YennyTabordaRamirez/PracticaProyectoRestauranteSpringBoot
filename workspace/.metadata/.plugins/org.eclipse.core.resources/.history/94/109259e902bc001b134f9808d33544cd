@@ -1,0 +1,5 @@
+package com.restaurant.semillero.enums;
+
+public class RoleEnums {
+
+}
